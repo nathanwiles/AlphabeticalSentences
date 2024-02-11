@@ -34,11 +34,11 @@ if keeping quotations, ensure that quotations are properly opened and closed in 
  * @returns {Promise<void>} A promise that resolves when the program is finished.
  */
 async function main() {
-  rl.question('Please enter the .txt filename (defaults to "story"):', async (sourceFile) => {
+  rl.question('Please enter the .txt filename (defaults to "shortStory"):', async (sourceFile) => {
     let sourceText;
     try {
       if (!sourceFile) {
-        sourceFile = 'story.txt';
+        sourceFile = 'shortStory.txt';
       }
       if (!sourceFile.endsWith('.txt')) {
         sourceFile += '.txt';
