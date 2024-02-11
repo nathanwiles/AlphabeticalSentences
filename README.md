@@ -19,3 +19,4 @@ Using this text alphabetizer is fairly straightforward:
 - Any .txt file can be moved into the parent directory and used instead of "story.txt"
 - If preserving quotes, The .txt file cannot have any out of place quotation marks.
 - Some minor edits to the text may be required to make it work properly.
+- The "story.txt" file was modified to remove 2 floating quotation marks.
